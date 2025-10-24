@@ -156,7 +156,9 @@ class _UserPageHomeState extends State<UserPageHome> {
                                   borderRadius: BorderRadius.circular(50),
                                 ),
                                 child: IconButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    Navigator.pushNamed(context, '/viewStore');
+                                  },
                                   icon: Icon(
                                     Icons.edit,
                                     color: ColorsPalette.branco,
